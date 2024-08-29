@@ -14,14 +14,14 @@
     --RGBA: rgba(0,0,0,0.8);
 }
 
-*{
+/**{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
     background-color: var(--white);
-}
+}*/
 
 
 body{
@@ -38,8 +38,6 @@ textarea{
    Desarrollo del header  
         Encabezado
 --------------------------*/
-/*header{
-}*/
 
 .header{
     background-color: aquamarine;
@@ -113,6 +111,7 @@ textarea{
     border: 1px solid var(--color-blue);
     cursor: pointer;
     max-width: 328px;
+    min-width: 160px;
     width: 40%;
     height: 67px;
     font-size: 16px;

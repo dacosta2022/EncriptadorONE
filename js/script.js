@@ -49,7 +49,8 @@ const reset = () => {
 
 //--------- Botón de Encriptar -----------//
 
-botonEncriptar.addEventListener("click", () =>{
+
+botonEncriptar.addEventListener("click", () => {
     const texto = ingresoTexto.value.toLowerCase();
     if (texto != ""){
         function encriptar(newText) {
